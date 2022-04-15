@@ -14,5 +14,5 @@ Controls:
 2. Press Esc to exit
 
 # Spoiler: It's a detective story
-Video demo (first 3 mintues) is available at Youtube(https://youtu.be/pI3wvYExERE)
+Video demo (first 3 mintues) is available at [Youtube](https://youtu.be/pI3wvYExERE)
 
