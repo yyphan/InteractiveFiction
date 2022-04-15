@@ -48,20 +48,20 @@ Woman: "Detective,"
     (Right, I was on holiday. Why the hell did I pick this up?)
     Sherry: "A car crashed out of Hudson Bridge. Chief asked for you."
     **  ["Sorry, who are you again?"]
-    --  Sherry(Investigator): "Sherry, sir. Investigator from Team Cherry."
+    --  Sherry: "Sherry, sir. Investigator from Team Cherry."
     **  ["Err... okay."]
-    --  Sherry(Investigator): "Right. Now if you could..."
+    --  Sherry (Investigator): "Right. Now if you could..."
     **  ["Wait, chief crashed out of the bridge?!"]
-    --  Sherry(Investigator): "What? No! I mean, sorry."
-        Sherry(Investigator): "There was an accident on Hudson Bridge. 
+    --  Sherry: "What? No! I mean, sorry."
+        Sherry: "There was an accident on Hudson Bridge. 
         Chief appointed you for this case."
     **  ["I see. Sorry about that. I am perfectly awake now."]
-    --  Sherry(Investigator): "I certainly hope so.
+    --  Sherry: "I certainly hope so.
         I am afraid we need you ASAP, detective."
     **  ["Right. Hudson Bridge, is it?"]
-    --  Sherry(Investigator): "Yes."
+    --  Sherry: "Yes."
     **  ["You got it Sherry, I'll be there in 30 minutes."]
-        Sherry(Investigator): "Appreciated, Detective. 
+        Sherry: "Appreciated, Detective. 
         We are at the East end of the bridge. I will brief you on site."
 -   *   [(Where's my jacket?)]
     ->  arrive_at_crime_scene.early
@@ -136,8 +136,8 @@ but it had shrank so much it exposed the riverbed.
         *** ["Investigator."]
         --- Sherry smiled politely. 
             She was wearing a red leather jacket and a pair of dark blue jeans. 
-            She held on to a torch with one hand and a iPad mini with another.
-            Sherry (Investigator): "Sherry Redfield, Investigator."
+            She held on to a torch with one hand and an iPad mini with another.
+            Sherry (Investigator): "Sherry Redfield, investigator."
         *** ["Chen Shaorong, detective."]
         *** ["Let's cut to the point."]
         --- Sherry: "Right, detective. 
@@ -145,27 +145,27 @@ but it had shrank so much it exposed the riverbed.
             It was reported by a street cleaner."
         *** ["A street cleaner?"]
         *** ["Can I talk to the cleaner?"]
-        --- Sherry (Investigator): "Yes, you can talk to her. 
+        --- Sherry: "Yes, you can talk to her. 
             But I am not sure she could provide much help. 
             She claimed she saw lights blinking in the middle of the river and called the police."
         *** ["What did you find?"]
-        --- Sherry (Investigator): "The driver was found dead in the car. 
-            The victim was the only passenger and is identified as 
+        --- Sherry: "The driver was found dead in his car. 
+            The victim was the only passenger and has been identified as 
             Bill Jenkins, grocery owner, aged 32."
             ->  information
             
 = information
 *   ["Any witness?"]
-    Sherry (Investigator): "No, we had asked around. 
-    There was a wind storm last night and everyone stayed home."
+    Sherry (Investigator): "No. We had asked around, 
+    there was a wind storm last night and everyone stayed home."
     **  ["They should have at least heard something, if a car crashed out of the bridge?"]
-        Sherry (Investigator): "If I may interrupt, sir, 
+        Sherry: "If I may interrupt, sir, 
     **  ["Then how did we come to the conclusion of a car crash?"]
-        Sherry (Investigator): "With all due respect, sir, 
+        Sherry: "With all due respect, sir, 
     --  The happening of the event was caught by one of our civilian cameras."
         (...Of course, it is the 21st century)
     **  ["Can I see it?"]
-    --  Sherry (Investigator): "For sure. A copy has been sent to your office as well."
+    --  Sherry: "For sure. A copy has been sent to your office as well."
         She pulled out the iPad and played the footage for me.
     **  [** Concentrate on the footage **]    
         
@@ -173,16 +173,16 @@ but it had shrank so much it exposed the riverbed.
         
     --  The view was nice and clear. It was slightly past 1am. 
         Mr Jenkins' car was the only vehicle in sight. 
-        On entering the bridge on the East side, Mr Jenkins accelerated. 
-        About a hundred feet near the entrace, 
-        he made a sudden turn to crash into the fences.
+        On entering the bridge on the East side, the car sped up. 
+        About a hundred feet onto the bridge, 
+        the car made a sudden turn and crashed into the fences.
     **  [** Take picture **]
     --  I took a picture at the moment the car crashed.
         # 3
     **  [“Doesn't look like the car skidded or something."]
-    --  Sherry (Investigator): "It doesn't. For one thing, there was no ice on the road."
+    --  Sherry: "It doesn't. For one thing, the road wasn't frozen."
     **  ["Hmm."]
-    --  Sherry (Investigator): "It doesn't look like a traffic accident. 
+    --  Sherry: "It doesn't look like a traffic accident. 
         I guess that's why Chief appointed you, detective."
     **  "I need to know more."
     ->  information
@@ -196,7 +196,7 @@ but it had shrank so much it exposed the riverbed.
     --  I took a picture of the report.
         # 4
     **  ["The airbag didn't work?"]
-    --  Sherry (Investigator): "...It did pop out. 
+    --  Sherry: "It did pop out. 
         Unfortunately it did not save Mr Jenkins' life."
     **  "What about..."
     ->  information
@@ -213,15 +213,15 @@ but it had shrank so much it exposed the riverbed.
     ->  information
         
 *   ["You said the victim was the only person in car?"]
-    Sherry (Investigator): "Yes, sir. There were no other casualties.
+    Sherry: "Yes, sir. There were no other casualties.
     In fact, the car was almost... empty."
     **  ["What do you mean the car was empty?"]
-    --  Sherry (Investigator): "You know, there were no personal belongings in the car."
+    --  Sherry: "You know, there were no personal belongings in the car."
     **  ["Was it not his car?"]
-    --  Sherry (Investigator): "That remains to be seen.
-        We have sent our request to the traffic department.
+    --  Sherry: "That remains to be seen.
+        We have sent our request to Traffic Department.
         I will update you once we found out the owner of that car."
-    **  ["Okay. And if anyone went close to the car after it had crashed..."]
+    **  ["Okay. And if anyone had come close to that car..."]
     --  Sherry (Investigator): "The camera would have caught him.
         Besides, he would leave traces on this swamp."
     **  "Fair enough. What about..."
@@ -229,10 +229,10 @@ but it had shrank so much it exposed the riverbed.
     
 *   ["Does Mr Jenkins have family?"]
     Sherry (Investigator): "Yes, we have informed his wife this morning.
-    She's at the hospital identifying his body."
+    She should be at the hospital identifying the body, at this moment."
     **  ["She did not notice her husband went missing?"]
-    **  ["When was she last night?"]
-    --  Sherry (Investigator): "I am afraid you will have to ask her.
+    **  ["Where was she last night?"]
+    --  Sherry: "I am afraid you will have to ask her.
         I will let you talk to her when she's ready."
     **  "Okay, next I would like to know..."
     ->  information
@@ -242,7 +242,7 @@ but it had shrank so much it exposed the riverbed.
     ~ belongings_asked = true
     
     Sherry (Investigator): "Personal belongings, yes.
-    His wallet, phone and a ring of keys, 
+    His wallet, his phone and a ring of keys, 
     a few cigarettes and a lighter. They are kept in bags, Here."
     **  \** Examine wallet **
     --  Small notes, 2 bank cards, 1 traffic card, ID, 2 tickets,
@@ -251,7 +251,7 @@ but it had shrank so much it exposed the riverbed.
     
         ~ theatre_identified = true 
         
-        2 tickets are from Vienetta Threatre, 10pm to 12pm yesterday.
+        2 tickets are from Vienetta Theatre, 10pm to 12pm yesterday.
         *** [** Take picture **]
             I took a picture of the tickets.
             # 5
@@ -274,7 +274,7 @@ but it had shrank so much it exposed the riverbed.
     
         ~ lucky_strike_identified = true
         
-        \("Lucky Strike". Expensive brand but I guess not so lucky after all.\)
+        \("Lucky Strike". Expensive brand but...\)
         \(Wait, it's not the same as the rest of the cigarettes in the packet?)
         
         *** [** Take picture **]
@@ -294,19 +294,19 @@ but it had shrank so much it exposed the riverbed.
         
             ~ chose_transaction_record = true
             
-            Sherry (Investigator): "I see. The bank may request warrant, 
+            Sherry (Investigator): "I see. The bank may request a warrant, 
             but I will see what I can do."
         *** { theatre_identified }["I need to talk to Viennata Theatre."]
         
             ~   chose_threatre = true
             
-            Sherry (Investigator): "I see. I will arrage it."
+            Sherry (Investigator): "I see. I will arrange it."
             
     **  ["The first thing is to have a look at his bank transaction records."]
     
         ~   chose_transaction_record = true
         
-        Sherry (Investigator): "I see. The bank may request warrant,  
+        Sherry (Investigator): "I see. The bank may request a warrant,  
         but I will see what I can do. Meanwhile I can do one more thing for you."
         *** ["I need his phone recovered."]
             
@@ -318,14 +318,14 @@ but it had shrank so much it exposed the riverbed.
         
             ~   chose_threatre = true
             
-            Sherry (Investigator): "I see. I will arrage it."
+            Sherry (Investigator): "I see. I will arrange it."
             
     
     **  { theatre_identified }["The first thing is to let me talk to Viennata Theatre."]
     
         ~   chose_threatre = true
         
-            Sherry (Investigator): "I see. I will arrage it. 
+            Sherry (Investigator): "I see. I will arrange it. 
             Meanwhile I can do one more thing for you."
         *** ["I need to his phone recovered."]
             
@@ -337,7 +337,7 @@ but it had shrank so much it exposed the riverbed.
         
             ~   chose_transaction_record = true
             
-            Sherry (Investigator): "I see. The bank may request warrant tho.  
+            Sherry (Investigator): "I see. The bank may request a warrant.  
             I will see what I can do."
             
     --  **  ["Thanks, Sherry."]
@@ -353,17 +353,17 @@ but it had shrank so much it exposed the riverbed.
             ->  information
         - not car_examined:
             Me: "Thank you Sherry, you have been helpful.
-            If you don't mind, I would like to examine the car now."
+            If you would, please, I would like to examine the car now."
             Sherry (Investigator): "Glad to be of help. I will leave you alone."
             *   ["I will let you know when I am done."]
                 A red sedan sat on the river bank alone, 
                 seemed to be forgotten by the other officers.
-                It looked like normal from behind but at a closer look, 
+                It looked normal from behind but at a closer look, 
                 it tilted to one side.
                 ->  examine_car
         - else:
-            Sherry (Investigator): "Good to know. I will prepare the information you need and
-            send to your office. Meanwhile let me know if you have other questions."
+            Sherry (Investigator): "Good to know. I will send the information you need 
+            to your office. Meanwhile let me know if you have other questions."
             *   ["Right. Thank you, Sherry. See you back in the office."]
             ->  back_to_office
     }
@@ -373,14 +373,14 @@ but it had shrank so much it exposed the riverbed.
     Red Chevrolet Impala. Right hand side of the car was bumped, the headlight broken.
     The hood was bent and open, the engine cold. 
     The windshield shattered but remained one piece.
-    (Average car. Not beyond repair but it is no pleasure to look at.)
+    (Average car. Not beyond repair, but it's no pleasure to look at.)
     **  [** Take picture **]
-        I took a picture of the front.
+        I took a picture of the front of the car.
         # 7
     ->  examine_car
     
 *   \** Examine the driver's seat **
-    Defalted airbag, no blood.
+    Deflated airbag, no blood.
     The interior looked clean and in good condition, there were no accessories.
     **  [(So it is Mr Jenkins' new car)]
     **  [** Check mileage **]
@@ -409,7 +409,7 @@ but it had shrank so much it exposed the riverbed.
 
 === back_to_office ===
 Sitting behind this desk always gives me calmness and strength to think,
-although the world outside can often be cold and intimidating.
+as the world outside can often be cold and intimidating.
 *   [(To some extent that's why people like me are needed, I guess)]
 -   Door: "Knock knock"
 *   ["Come in"]
@@ -461,7 +461,7 @@ although the world outside can often be cold and intimidating.
                     Mrs Jenkins (victim's wife): "I've.. identified the body."
                 ->  calling_wife.later_calls
             *   ["This is Chen. I am a detective from NCPD."]
-                Mrs Jenkins (victim's wife): "It this regarding..."
+                Mrs Jenkins (victim's wife): "Is this regarding..."
                 **  ["I am afraid yes. My deepest condolences, Mrs Jenkins."]
                     Mrs Jenkins (victim's wife): "I've.. identified the body."
                 ->  calling_wife.later_calls
@@ -525,27 +525,27 @@ although the world outside can often be cold and intimidating.
         ->dial_panel
 
 =   later_calls
-    +   {wife_dial_count == 2}["We have a few service groups, you know, for trauma support."]
-    +   {wife_dial_count > 2}["Yes. I hope you are alright, Mrs Jenkins"]
+    +   {wife_dial_count == 2}["We have a few service groups, for trauma support."]
+    +   {wife_dial_count > 2}["Yes. I hope you are alright, Mrs Jenkins."]
     -   Mrs Jenkins (victim's wife): "..Thanks"
     +   ["I hate to bring it up but I have a few more questions regarding this case."]
     -   Mrs Jenkins (victim's wife): "..For me?"
     +   ["Yes. That is, if you don't mind, Mrs Jenkins."]
-    -   Mrs Jenkins (victim's wife): "Okay"
+    -   Mrs Jenkins (victim's wife): "Okay."
         -> questions
         
 =   questions
     *   {lucky_strike_identified} ["Does Mr Jenkins smoke?"]
         Mrs Jenkins: "Yes, Bill smokes a lot."
         Mrs Jenkins: "..I knew it! I always warned him against smoking while driving..."
-        **  ["Hmm, that may or may not be the case. Actually, what brand does he usually smoke?"]
+        **  ["Hmm, that may or may not be the case. Actually, what brand does he smoke?"]
         --  Mrs Jenkins: "Blue Mountains, why? He always grabs from our own grocery store."
         **  ["What about Lucky Strike?"]
         --  Mrs Jenkins: "Isn't that a luxury brand? I don't think we even had that in store."
         **  ["I see."]
         ->  questions
         
-    *   {lover_identified} ["Does the name Catherine Fox ring a bell for you?"]
+    *   {lover_identified} ["Does the name Catherine Fox ring any bell?"]
         Mrs Jenkins: "Who?"
         **  ["Catherine Fox."]
         --  Mrs Jenkins: "No, who's that?"
@@ -570,22 +570,22 @@ although the world outside can often be cold and intimidating.
         **  ["That's alright. Don't worry about it."]
         ->  questions
         
-    *   ["Were you at home last night?"]
+    *   ["Where were you last night?"]
         Mrs Jenkins: "..I am sure this is just a routine question?"
         **  ["Exactly, I take it you were not with Mr Jenkins when he was driving?"]
         --  Mrs Jenkins: "No, I wasn't... Bill and I had dinner together,
             but he left home soon after."
-        **  ["Did he mention where he was going?"]
-            Mrs Jenkins: "No. But I think it was business."
+        **  ["And where was he going?"]
+            Mrs Jenkins: "He did not mention. But I think it was business."
         **  ["Wait, you weren't with him at the threatre?"]
             Mrs Jenkins: "Threatre? Was it his business?"
         --  Me: "Business, you were saying?"
             Mrs Jenkins: "Yeah. Bill, um, had been hard-working."
-        **  ["As a grocery owner?"]
+        **  ["At your grocery store?"]
         **  ["Apart from running a grocery store?"]
         --  Mrs Jenkins: "He, um, had other businesses I think."
-        **  ["What was it?"]
-        --  Mrs Jenkins: "..I have no idea. He told me a few months back
+        **  ["What do you know about it?"]
+        --  Mrs Jenkins: "..No much. He told me a few months back
             that he ran into a business partner and that's all."
         **  ["And who was that partner?"]
         --  Mrs Jenkins: "I really don't know."
@@ -597,10 +597,10 @@ although the world outside can often be cold and intimidating.
         --  Mrs Jenkins: "I called Bill when the wind storm came.
             He did not answer but he texted me. That was uh, let me check, around 10pm."
         **  ["What did he say?"]
-        --  Mrs Jenkins: "He said he would be late and that I could rest first."
+        --  Mrs Jenkins: "He said he would be late and that I should rest first."
         **  ["You were alone last night?"]
         --  Mrs Jenkins: "That's correct. I watched television until late 
-            but I had Migraine so I went to bed early."
+            but I had Migraine, so I went to bed early."
         **  ["Can you recall the shows you have watched last night?"]
         --  Mrs Jenkins: "What?"
         **  [(...)]
@@ -618,13 +618,13 @@ although the world outside can often be cold and intimidating.
         --  Mrs Jenkins: "No, not really."
         **  [(...)]
         --  Mrs Jenkins: "Bill, uh, only got his license months ago."
-        **  ["I see, can you drive?"]
+        **  ["I see. By the way, can you drive?"]
         --  Mrs Jenkins: "No, I cannot. Uh, detective, could he have run into an accident?"
         **  ["I will find out, Mrs Jenkins."]
         ->  questions
         
-    +   ["(SKIP)That's um, all I need to know for now."]
-        Mrs Jenkins (victim's wife): "Okay"
+    +   ["(SKIP)That's um, all I need to know for now. Have some rest."]
+        Mrs Jenkins (victim's wife): "Okay."
         ->  dial_panel
 
 
@@ -635,13 +635,13 @@ although the world outside can often be cold and intimidating.
 =   first_call
     Man: "Mark's Car Rental. How can I help you?"
     *   ["Hi, am I speaking to the owner?"]
-    -   I heard someone shouted on his side. 
+    -   I heard someone shouted in the background. 
         Man: "Sorry just a minute."
     *   ["Hello?"]
     -   The man probably attended to the person who shouted at him cos he started shouting too.
     *   [** Wait **]
         Man: "What was it?"
-        The person in distance: "Where ... my wax ... last wednesday ..."
+        The voice in the background: "Where ... my wax ... last wednesday ..."
         Man: "What would I know about it? Just get a new box! I got business here."
         The man returned.
         Man: "Sorry about that, you were saying?"
@@ -654,6 +654,7 @@ although the world outside can often be cold and intimidating.
                 
                 Man: "Huh, he's probably the most forgetful technician ever born.
                 Don't worry about him."
+                ****["Okay, I was hoping to speak to the owner."]
         **  ["I was hoping to speak to the owner."]
         --  Man: "Who am I speaking to?"
         **  ["This is Chen. Detective at NCPD."]
@@ -666,10 +667,10 @@ although the world outside can often be cold and intimidating.
 =   second_call
     Man: "Mark's Car Rental. May I help you?"
     (I recognized his voice)
-    *   ["Yeah please, can I speak to the owner?"]
+    *   ["Yes please, can I speak to the owner?"]
     -   Man: "And you are?"
     *   ["Detective Chen, from NCPD. I called once before."]
-    -   Man: "Oh, detective. I will let Mark take the call."
+    -   Man: "Oh, detective. I will pass to Mark."
     *   ["Wait."]
         Man: "Yes?"
         **  ["Can I speak to you for a moment?"]
@@ -681,14 +682,14 @@ although the world outside can often be cold and intimidating.
             *** ["Did you manage to find it?"]
             --- Carlos (Technician): "No, we did not bother. We are not short of Fel Wax anyway."
             *** ["What exactly does the Gel Wax do anyway?"]
-            --- Carlos (Technician): "The Fel Wax. We use it for molding.
+            --- Carlos: "The Fel Wax. We use it for molding.
                 After heated it is like plasticine, can bend it into any shape."
             *** ["Meaning it melts with heat?"]
-            --- Carlos (Technician): "You can say that, yeah. Why?"
+            --- Carlos: "You can say that, yeah. Why?"
             *** ["Cool, thanks. Can I speak to Mark now?"]
             ->  owner_second_time
         **  {!wax_identified}["Right, Carlos. Do you know Mark well?"]
-            Carlos (Technician): "Yes, I have worked for him for 13 years.
+            Carlos (Technician): "Yes, I have been working with him for the past 13 years.
             He's like a brother."
             *** ["Does the name Bill Jenkins sound familiar to you?"]
             --- Carlos (Technician): "Ah yeah, Mr Jenkins. Also a good friend of ours. What about him?"
@@ -705,7 +706,7 @@ although the world outside can often be cold and intimidating.
 
 =   later_calls
     Mark: "Detective Chen."
-    *   ["Got a few more quick questions."]
+    +   ["Got a few more quick questions."]
         ->  questions
 
 =   owner_first_time
@@ -717,11 +718,11 @@ although the world outside can often be cold and intimidating.
     -   Mark: "Yeah, he is one of our customers."
     *   ["You remeber every customer?"]
     -   Mark: "Not really, but I did handle every car rental case myself, so...
-        Mr Jenkins always favors our serive than our competitors and I appreciated it."
+        Mr Jenkins always favors our serive than our competitors and I appreciate it."
     *   ["Mr Jenkins died of a car crash this morning."]
     -   Mark: "My word! ..."
         Mark: "Sorry officer ... For real?"
-    *   ["Unfortunately yes. Did you notice anything when he rented your car yesterday?"]
+    *   ["Unfortunately yes. Did you notice anything about him yesterday?"]
     -   Mark: "Damn... God bless him..."
     *   ["Mark?"]
     -   Mark: "Sorry, let me check our system."
@@ -747,7 +748,7 @@ although the world outside can often be cold and intimidating.
         **  ["What brand do you smoke?"]
         **  ["I feel the same way. Lucky Strike is my favourite."]
         --  Mark: "Lucky Strike! It is the best. 
-            I have been smoking it since I inherited the business from my father."
+            I have been smoking it since I inherited the business from my old man."
         **  ["I see."]
         --  Mark: "..."
         **  ["A Lucky Strike cigarette was found on Mr Jenkins' body."]
@@ -758,7 +759,7 @@ although the world outside can often be cold and intimidating.
         --  Mark: "Actually... I might have given it to him."
         **  ["You did? Under what circumstances?"]
         --  Mark: "Well, he was quiet that day and I thought I should cheer him up.
-            I made a bad joke and it did not work. I think I offered him that cigarette after that."
+            I made a joke and it did not work. I think I offered him that cigarette after that."
         **  ["Hmm."]
         --  Mark: "It is really good stuff, you know. It would have cheered him up."
         **  ["I see."]
@@ -768,18 +769,18 @@ although the world outside can often be cold and intimidating.
         ->  questions
     *   {friendship_identified} ["I heard that you are good friends with Mr Bill Jenkins?"]
         Mark: "I try to make good friends with every customer."
-        **  ["How so?"]
+        **  ["You do?"]
         --  Mark: "I hate to break it but, you know, sometimes you make the most money
             from the closest friends."
-        **  ["That's businessman's way of thinking?"]
+        **  ["That's some businessman's ways of thinking?"]
         --  Mark: "Or it could be just me."
         **  ["Your friendship with Mr Jenkins, has it ever gone beyond business?"]
         --  Mark: "Sorry what do you mean?"
         **  ["Like, do you only meet for car renting?"]
-        --  Mark: "Mostly, yeah. I did invite some of our customers to events like
-            auto shows or parties."
+        --  Mark: "Mostly, yeah. AlthoughI did invite some of our customers to events 
+            like auto shows or parties."
         **  ["When was the first time you met each other?"]
-        --  Mark: "When? Probably a few months back. He looked like a reliable man."
+        --  Mark: "When? Probably a few months back."
         **  ["I see."]
             
         ~ friendship_matched = true
@@ -800,6 +801,7 @@ although the world outside can often be cold and intimidating.
         ~ wax_matched = true
           
         ->  questions
+        
     +   ["Recalled anything else about Mr Jenkins?"]
         Mark: "Uhh, I have asked around but nothing came up."
         ++  ["I see."]
@@ -817,27 +819,30 @@ although the world outside can often be cold and intimidating.
     *   ["Hi, Detective Chen here. And I am speaking to?"]
     -   Jack (Manager at Vienetta Theatre): "Jack, General Manager here at Vienetta Theatre."
     *   ["Hi, Jack. I believe Sherry had contacted you?"]
-    -   Jack (Manager): "Yep, Miss Redfield has briefed me."
+    -   Jack: "Yep, Miss Redfield has briefed me."
     *   ["Right, emm, I was wondering if..."]
-    -   Jack (Manager): "Let's cut to the point, detective. 
+    -   Jack: "Let's cut to the point, detective. 
         I have prepared the evidence for you."
     *   ["..? Evidence you say?"]
-    -   Jack (Manager): "Yes, Mr Jenkins bought 2 tickets from us for last night's show.
+    -   Jack: "Yes, Mr Jenkins bought 2 tickets from us for last night's show.
         One under his own name, the other under the name of a Catherine Fox.
         He and his companion were both caught by our CCTV."
     *   ["Well, that's very helpful."]
-    -   Jack (Manager): "The evidence should have been conveyed to you via Miss Redfield.
-        Now if there's no futher queries, my request is that we quickly get this over with."
+    -   Jack: "The evidence should have been conveyed to you via Miss Redfield."
+    *   ["That's, um, great. I'll have a look."]
+    -   Jack: "Hmm, now if there's no futher queries, 
+        my request is that we quickly get this over with."
     *   ["Wait, what's in the rush?"]
-    -   Jack (Manager): "With all due respect, sir, 
-        we don't want to be associated to Mr Jenkins' death. My condolences, by the way."
-    *   ["Aren't you ruthless?"]
+    -   Jack: "With all due respect, sir, 
+        we don't want to be associated to Mr Jenkins' death. 
+        My condolences, by the way."
+    *   ["With all due respect, SIR, aren't you ruthless?"]
     *   ["What are you scaring?"]
     -   Jack (Manager): "Believe me, sir. You learn to fear people's words in this business."
     *   [(...)]
     -   Jack (Manager): "Now if you don't mind, I must attend to other matters."
     *   [(Asshole)]
-    -   I hang the phone.
+    -   I hang up.
         Sherry has updated Catherine Fox's number for me.
         
         ~ lover_identified = true
@@ -848,10 +853,10 @@ although the world outside can often be cold and intimidating.
     Jack (Manager at Vienetta Theatre): "Officer, I mean, detective. With all due respect,
     we do not have more information to offer."
     +   ["Okay, I was just checking in ."]
-    -   Jack (Manager at Vienetta Theatre): "No! I mean, please, please understand. 
+    -   Jack: "No! I mean, please, please understand. 
         People have started to talk about there was a murder in our theatre here!"
     +   ["What? That's not the case."]
-    -   Jack (Manager): "No, it's not. And you know what it is? 
+    -   Jack: "No, it's not. And you know what it is? 
         It's called rumor! Please do not call again, we have a business to run!"
         He hang up.
     +   [(Well now that's called rude.)]
@@ -890,19 +895,21 @@ although the world outside can often be cold and intimidating.
     -   Catherine: "What, it was a musical."
     *   ["Mr Jenkins is married."]
     -   Catherine: "It was merely a musical."
+    *   [(...)]
+    -   Catherine: "..."
     *   ["Mr Jenkins is dead."]
     -   Catherine: "..."
-        Catherine: "What... what was that?"
+        Catherine: "...What was that?"
     *   ["Mr Jenkins was found dead this morning."]
-    -   Catherine: "..."
+    -   Catherine: "...What in the hell..."
     *   ["And he was with you last night."]
-    -   Catherine: "What? No, no no no. You got it all wrong!
+    -   Catherine: "What? No, no no no. You've got it all wrong!
         We were.. In a relationship. I wouldn't have killed him!"
     ->  questions
 
 =   later_calls
     Catherine: "Hello?"
-    *   ["Chen here."]
+    +   ["Chen here."]
     -   Catherine: "I have told you what I had to tell you."
     ->  questions
 
@@ -911,7 +918,7 @@ although the world outside can often be cold and intimidating.
         Catherine: "..."
         **  ["What had happened..."]
         --  Catherine: "We met at the theatre. We watched the musical together."
-        **  ["Then you left the theatre."]
+        **  ["What happened then?"]
         --  Catherine: "He walked me home. We kissed goodbye. 
             He went on the bus and I have not seen him since."
         **  ["Did anyone see you?"]
@@ -924,8 +931,8 @@ although the world outside can often be cold and intimidating.
         **  ["Mr Jenkins got on the last bus back home?"]
         --  Catherine: "Yes, and I have not seen him since."
         **  ["You were lying."]
-        --  Catherine: "I don't understand."
-        **  ["I am going to ask you one last time, what had happened last night?"]
+        --  Catherine: "I do not understand."
+        **  ["I am going to ask you again, what had happened last night?"]
         --  Catherine: "I have told you what I remembered."
         **  ["Mr Jenkins died driving a car."]
         --  Catherine: "..."
@@ -936,14 +943,14 @@ although the world outside can often be cold and intimidating.
         **  ["Where are you?"]
         --  Catherine: "We parted ways in front of the theatre..."
         **  ["I will have to have you in for interrogation."]
-        --  Catherine: "Please! I will tell it now. 
+        --  Catherine: "Please! I will tell you now. 
             You can have me in but it is going to be the same story!"
         **  ["Try"]
         --  Catherine: "We parted ways in front of the theatre.
             We had a quarrel. But it is not like what you think!
             He said he would break up with me, I wanted him to stay."
         **  ["What did he say?"]
-        --  Catherine: "Him? He said we were a mistake and he wanted to go back to his life!"
+        --  Catherine: "Him? He said it was a mistake and he wanted to go back to his life!"
         **  ["And what did you say?"]
         --  Catherine: "Fuck him. Fuck him! He deserve to be dead but I did not kill him!"
         **  ["What happened next?"]
@@ -952,7 +959,7 @@ although the world outside can often be cold and intimidating.
         --  Catherine: "There's people watching and he wouldn't say anything.
             He just pulled out a cigarette like nothing had happened."
         **  ["What brand did he smoke?"]
-        --  Catherine: "What brand? Cheap ones."
+        --  Catherine: "...What brand? Cheap ones."
         **  ["What brand do you smoke? Do you smoke at all?"]
         --  Catherine: "99's Eve, why?"
             (Doesn't tell me a lot.)
@@ -964,6 +971,7 @@ although the world outside can often be cold and intimidating.
         --  Catherine: "I did not kill him, officer. I did not."
         **  ["I hope so, Miss Fox. I do."]
         ->  questions
+        
     *   ["How did you come to know each other?"]
         Catherine: "..."
         
@@ -973,15 +981,16 @@ although the world outside can often be cold and intimidating.
         --  Catherine: "Through a mutual friend."
         **  ["Identify."]
         --  Catherine: "He had nothing to do with all of this."
-        **  ["Stop thinking about others. You are the one being suspected now."]
+        **  ["You are the one being suspected now."]
         --  Catherine: "..Name is Mark Picasso."
         **  [(Why does it sound familiar)]
         --  Catherine: "He runs a auto repair company on the other side of town."
-        **  ["Wait, Mark's Car Rental?"]
+        **  ["Does it happen to be Mark's Car Rental?"]
         --  Catherine: "Ah, yes. He turned to car rental business in recent years."
         **  ["This Mark Picasso introduced you to each other?"]
         --  Catherine: "Yes, we met each other at a party."
         ->  questions
+        
     +   ["That's all for now. Please remain contactable in the next few days."]
         Catherine: "...I did not kill him."
         ++  ["Please remain contactable."]
@@ -993,7 +1002,7 @@ although the world outside can often be cold and intimidating.
 === verdict ===
 +   ["This is an accident."]
     ...
-    The case was later directed to the traffic department.
+    The case was later directed to Traffic Department.
     I have not heard of it since. God bless him.
     ->  restart
     
@@ -1022,7 +1031,7 @@ although the world outside can often be cold and intimidating.
             On the day Mr Jenkins died, he wanted to part ways with Mark,
             "because he had enough and only wanted to live his life."
             Mark took down a piece of hardware on the car rented to Mr Jenkins,
-            and replaced it with a piece of Fel Wax. That piece of Fel Wax did not hold 
+            and replaced it with a piece of Fel Wax. That piece of Fel Wax did not hold
             under the heat of a driving vehicle and melted away. That was when Mr Jenkins'
             car lost control and drove into the river.
     }
@@ -1040,6 +1049,7 @@ although the world outside can often be cold and intimidating.
 
     
 === restart ===
+\-
 Now I could live with that,
 or I could
 ->END
